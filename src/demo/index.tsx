@@ -1,11 +1,16 @@
 import React from "react";
 
 type Props = {
-  name: number;
+  // name: number;
 };
 
-function Index({ name }: Props) {
-  return <div>Indexaa{name}</div>;
+function Index({}: Props) {
+  return (
+    <div>
+      <div>main</div>
+      <div id="container" />
+    </div>
+  );
 }
 
 export default Index;
